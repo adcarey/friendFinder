@@ -1,15 +1,15 @@
-var friend = require('../data/friends.js');
-var path = require('path');
+var friend = require("../data/friends.js");
+var path = require("path");
 
 var difference = 0;
 
 module.exports = function(app){
-	app.get('/api/friends', function(req, res){
+	app.get("/api/friends", function(req, res){
 		console.log(res);
 		res.json(friends);
 	});
 
-	app.post('/api/friends', function(req, res){
+	app.post("/api/friends", function(req, res){
 
 		var greatMatch = {
 			name: "",
