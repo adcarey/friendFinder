@@ -1,0 +1,51 @@
+var friends = [
+  {
+      "name":"Michael",
+      "photo":"https://s-media-cache-ak0.pinimg.com/originals/4c/72/da/4c72da5ed8e7ecb6a2baaa80c0505fe4.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Charles",
+  "photo":"https://i.ytimg.com/vi/ReVC5gq-ooY/hqdefault.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Anderson",
+  "photo":"http://www.craziestsportsfights.com/wp-content/uploads/2017/01/anderson_silva.0.jpg",
+  "scores":[
+     2,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+}
+]
+module.exports = friends;
