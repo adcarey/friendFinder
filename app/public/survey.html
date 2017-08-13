@@ -185,9 +185,24 @@
 	 <script type="text/javascript">
 
 
+  	// Chosen CSS
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:true},
+      '.chosen-select-no-single' : {disable_search_threshold:10},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"90%"},
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+
+
+
+//cutoff
     $("#submit").on("click", function(){
 
-    	// Form validation
+    	// Form validation 
     	function validateForm() {
 		  var isValid = true;
 		  $('.form-control').each(function() {
